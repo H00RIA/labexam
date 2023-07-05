@@ -1,0 +1,144 @@
+/* Header styles */
+header {
+    background-color: #71df2d;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: flex-start;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Button styles */
+  .signin-button {
+    display: inline-block;
+    padding: 10px 20px;
+   border: 1px solid black;
+    color: #333;
+    text-decoration: none;
+    margin-left: 1060px;
+  }
+  
+  /* Body styles */
+  .grid-container {
+    background: linear-gradient(to bottom, #71df2d, #caea85);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+
+  
+   
+  }
+  
+  .grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+  }
+  
+  /* Body and HTML height 100% for full-page layout */
+  body, html {
+    height: 100%;
+  }
+  
+  /* Flexbox layout for full-page height */
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Flex-grow to push the content to the top */
+  .grid-container {
+    flex-grow: 1;
+  }
+
+  footer {
+    background-color: rgb(240, 235, 235);
+    color: #181717;
+    text-align: center;
+    margin-top: auto;
+  
+    padding: 80px;
+   
+  }
+  
+  .footer-container {
+   
+    margin: 0 auto;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 20px 0;
+  
+  }
+  
+  .footer-section {
+    display: table-cell;
+    padding: 0px 30px;
+    vertical-align: top;
+  }
+  
+  .footer-section h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 1.5;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #000;
+  }
+  
+  .footer-bottom {
+   
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    padding-right: 20px 0;
+    color: #666;
+  }  
